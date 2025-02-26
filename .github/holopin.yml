@@ -1,9 +1,18 @@
-organization: # org name on holopin
-defaultSticker: # sticker ID
+organization: holopin
+defaultSticker: cl7td8iq6014809k0mf12i1e6
 stickers:
-  -
-    id: # sticker id
-    alias: # shorthand-string
-  -
-   id:
-   alias: 
+  - id: cl7td8iq6014809k0mf12i1e6
+    alias: deserves-badge
+  # more stickers
+holobytes:
+  - evolvingStickerId: #evolving sticker ID; optional
+    alias: # some alias
+    icon: # some icon; if unspecified or invalid defaults to something
+    from: # optional; defaults to false, if true, assigns a fromAlias as their github username and fromUrl as github.com/username
+    in: # optional; defaults to false, if true, assigns url as the issue/pr url, and urlAlias as <githuborg>/<repo> or <githubusername>/<repo>
+ 
+  # below is an example of a list item without an evolvingStickerId
+  - alias: # some alias
+    icon: # some icon; if unspecified or invalid defaults to something
+    from: # optional; defaults to false, if true, assigns a fromAlias as their github username and fromUrl as github.com/username
+    in: # optional; defaults to false, if true, assigns url as the issue/pr url, and urlAlias as <githuborg>/<repo> or <githubusername>/<repo>
